@@ -1,0 +1,49 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.active-campaign table td{
+    text-align: left;
+}
+
+.active-campaign table{
+    font-size: 13px;
+}
+
+.active-campaign table thead th{
+    font-size: 13px;
+}
+.active-campaign table img{
+    width:30px;
+    height:30px;
+}
+.btn-success2{
+    background: #37BC9C !important;
+    color:#fff;
+    border-radius: 10px;
+}
+.apply-modal form .btn-primary{
+    background:#3882F6 !important;
+    border:none !important;
+    border-radius: 10px;
+}
+.apply-modal input{
+    background:#161D31 !important;
+    border:none !important; }
+
+    .approve-modal form .btn-primary{
+        background:#37BC9C !important;
+        border:none !important;
+    }
+    .approve-modal input{
+        background:#161D31 !important;
+        border:none !important; } 
+
+        .approve-modal textarea{
+            background:#161D31 !important;
+            border:none !important; }
+
+/* .dark-layout .apply-modal .modal-header .btn-close
+ {
+    background:#3882F6 !important;
+color:#ffffff !important; } */
+  

@@ -1,0 +1,401 @@
+@import 'colors';
+$Montseratte: 'Montserrat', sans-serif; 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  /*scroll width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: $primary; 
+    border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(87, 85, 92); 
+    border-radius: 30px;
+    }
+
+body{
+    margin: 0;
+    padding: 0;
+    background:$white;
+    width: 100%;
+
+    overflow-x: hidden;
+    // overflow: hidden;
+    font-family: $Montseratte;
+}
+
+.btn-login{
+    &:hover{
+        background: $white !important;
+        color:$dark !important;
+    }
+}
+
+.btn{
+&:hover{
+    background: $white;
+    color:$dark;
+}
+}
+
+.nav-link.active{
+    background-color: $primary !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 15px;
+}
+
+// DashBoard Scss
+
+.factsContainer{
+
+    .fact{
+        
+        width: 309px;
+        height: 147px;
+        background: rgb(55,188,156);
+background: linear-gradient(0deg, rgba(55,188,156,1) 25%, rgba(69,138,246,1) 100%);
+        border-radius: 10px;
+
+        margin-left: 5px;
+
+        color: $white;
+
+        .title{
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        .Number{
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+
+.tabs .active{
+   background-color: $primary !important;
+}
+
+.Table-title{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.counter{
+    color: $primary;
+}
+
+.dropdown{
+  
+   a.btn{
+    color: $primary;
+    border: 1px solid $primary;
+   }
+
+   a.btn:hover{
+    background-color: $primary;
+    color: $white;
+    border: 1px solid $primary;
+   }
+}
+
+.depth{
+    font-size: 400px;
+
+position: fixed;
+bottom: -180px;
+left: 50%;
+transform: translate(-40% , 0);
+color: #9595950e !important;
+cursor: none;
+pointer-events: none;
+}
+
+.campaignType{
+    border-radius: 10px;
+    padding: 2px 25px;
+    border: 1px solid #82868b3a ;
+    color: #82868b;
+    background: none;
+
+}
+
+.campaignType.active{
+    border: 1px solid $primary !important ;
+    color: $primary;
+   
+}
+label{
+    font-size: 12px;
+}
+.nxt{
+    background-color: $primary !important;
+    color: $white !important;
+}
+
+
+
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picturecontainer {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    
+    .Select{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+input.search{
+    border: none !important;
+}
+
+.excel{
+    background-color: $Green !important;
+    color: $white !important;
+}
+
+.PDF{
+    background-color: $Danger !important;
+    color: $white !important;
+}
+
+
+.campaignPic{
+
+width: 317px;
+height: 233px;
+border-radius: 10px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
+position: relative;  
+
+.actionsContainer{
+
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+
+
+
+    .action{
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: $white;
+        cursor: pointer;
+
+       .icon{
+          width: 30px !important;
+          height: 30px !important;
+         
+
+        }
+
+        .danger{
+            color: $Danger !important;
+          }
+
+          .success{
+            color: $Green !important;
+          }
+    }
+
+}
+
+}
+
+.icons i{
+    background-color: $primary !important;
+    color: $white;
+    border-radius: 300px;
+}
+
+.warning-icon{
+    color: $Warning !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+
+
+.icon{
+    width: 20px !important;
+    height: 20px !important; 
+}
+
+#card-congratulations{
+    background: rgb(55,188,156) !important;
+    background: linear-gradient(0deg, rgba(55,188,156,1) 25%, rgba(69,138,246,1) 100%) !important;
+
+    .contactUs{
+        background-color: $white !important;
+        color: $dark !important;
+        font-weight: 200 !important;
+        cursor: pointer;
+    }
+}
+
+.tableProfile2{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.save{
+    color: $Green !important;
+
+}
+.edit:hover{
+    color: $dark !important;
+    
+}
+
+.Ban{
+    color: $Warning !important;
+}
+
+.click{
+    color: $primary !important;
+
+}
+
+.Delete{
+    color: $Danger !important;
+}
+
+.successBtn, .previewBtn {
+    width: 317px !important ;
+    background-color: $Green !important;
+    color: $white !important;
+    border-radius: 10px;
+}
+
+.copy{
+    background-color: $Green !important;
+    color: $white !important;
+    border-radius: 10px;
+}
+
+.beginDate{
+    color: $Green !important;
+}
+
+.EndDate{
+    color: $Danger !important;
+}
+
+.previewBtn, .withdraw{
+    background-color: $primary !important;
+}
+
+.withdraw{
+    color: $white !important;
+}
+
+.remove{
+    background-color: $Danger !important;
+    color: $white !important;
+
+}
+
+.Back{
+    width: 30px !important;
+    height: 30px !important;
+   
+
+  }
+
+  .dent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+.tableProfile{
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.highlightDanger{
+    border-radius: 10px;
+    border: 1px solid $Danger !important;
+    color: $Danger !important;
+}
+
+.highlightDanger:hover{
+    border: none !important;
+    background-color: $Danger !important;
+    color: $white !important;
+}
+
+.SocialIcon{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.linkSocial{
+    font-size: 15px !important;
+}
+
+.formBody{
+    border-radius: 15px;
+    border: 1px solid $light !important;
+}
+
+.GenderSelect{
+    width: 100%;
+    border: 1px solid black;
+}
+.modalRow{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+
+
+}

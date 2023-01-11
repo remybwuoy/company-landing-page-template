@@ -1,0 +1,537 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*scroll width */
+::-webkit-scrollbar {
+  /* width: 5px;
+  height: 7px; */
+  width: 0;
+  display: none;
+  background: transparent;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+  background: transparent;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #161D31; */
+  display: none;
+  background: transparent;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #57555c; */
+  display: none;
+  background: transparent;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  border-radius: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-login:hover {
+  background: #fff !important;
+  color: #1E1F21 !important;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #1E1F21;
+}
+
+.nav-link.active {
+  background-color: #3882F6 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+  border-radius: 15px;
+}
+
+.factsContainer .fact {
+  width: 309px;
+  height: 147px;
+  background: #37bc9c;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, #37bc9c), to(#458af6));
+  background: linear-gradient(0deg, #37bc9c 25%, #458af6 100%);
+  border-radius: 10px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.factsContainer .fact .title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.factsContainer .fact .Number {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tabs .active {
+  background-color: #3882F6 !important;
+}
+
+.Table-title {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.counter {
+  color: #3882F6;
+}
+
+.dropdown a.btn {
+  color: #3882F6;
+  border: 1px solid #3882F6;
+}
+
+.dropdown a.btn:hover {
+  background-color: #3882F6;
+  color: #fff;
+  border: 1px solid #3882F6;
+}
+
+.depth {
+  font-size: 400px;
+  position: fixed;
+  bottom: -180px;
+  left: 50%;
+  -webkit-transform: translate(-40%, 0);
+          transform: translate(-40%, 0);
+  color: #9595950e !important;
+  cursor: none;
+  pointer-events: none;
+}
+
+.campaignType {
+  border-radius: 10px;
+  padding: 2px 25px;
+  border: 1px solid #82868b3a;
+  color: #82868b;
+  background: none;
+}
+
+.campaignType.active {
+  border: 1px solid #3882F6 !important;
+  color: #3882F6;
+}
+
+label {
+  font-size: 12px;
+}
+
+.nxt {
+  background-color: #3882F6 !important;
+  color: #fff !important;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picturecontainer {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.picturecontainer .Select {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+input.search {
+  border: none !important;
+}
+
+.excel {
+  background-color: #37BC9C !important;
+  color: #fff !important;
+}
+
+.PDF {
+  background-color: #F44D7C !important;
+  color: #fff !important;
+}
+
+.campaignPic {
+  width: 317px;
+  height: 233px;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.campaignPic .actionsContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.campaignPic .actionsContainer .action {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.campaignPic .actionsContainer .action .icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.campaignPic .actionsContainer .action .danger {
+  color: #F44D7C !important;
+}
+
+.campaignPic .actionsContainer .action .success {
+  color: #37BC9C !important;
+}
+
+.icons i {
+  background-color: #3882F6 !important;
+  color: #fff;
+  border-radius: 300px;
+}
+
+.warning-icon {
+  color: #F9C900 !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.icon {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#card-congratulations {
+  background: #37bc9c !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, #37bc9c), to(#458af6)) !important;
+  background: linear-gradient(0deg, #37bc9c 25%, #458af6 100%) !important;
+}
+
+#card-congratulations .contactUs {
+  background-color: #fff !important;
+  color: #1E1F21 !important;
+  font-weight: 200 !important;
+  cursor: pointer;
+}
+
+.tableProfile2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.save {
+  color: #37BC9C !important;
+}
+
+.edit:hover {
+  color: #1E1F21 !important;
+}
+
+.Ban {
+  color: #F9C900 !important;
+}
+
+.click {
+  color: #3882F6 !important;
+}
+
+.Delete {
+  color: #F44D7C !important;
+}
+
+.successBtn, .previewBtn {
+  width: 317px !important;
+  background-color: #37BC9C !important;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+.copy {
+  background-color: #37BC9C !important;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+.beginDate {
+  color: #37BC9C !important;
+}
+
+.EndDate {
+  color: #F44D7C !important;
+}
+
+.previewBtn, .withdraw {
+  background-color: #3882F6 !important;
+}
+
+.withdraw {
+  color: #fff !important;
+}
+
+.remove {
+  background-color: #F44D7C !important;
+  color: #fff !important;
+}
+
+.Back {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.dent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tableProfile {
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.highlightDanger {
+  border-radius: 10px;
+  border: 1px solid #F44D7C !important;
+  color: #F44D7C !important;
+}
+
+.highlightDanger:hover {
+  border: none !important;
+  background-color: #F44D7C !important;
+  color: #fff !important;
+}
+
+.SocialIcon {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.linkSocial {
+  font-size: 15px !important;
+}
+
+.formBody {
+  border-radius: 15px;
+  border: 1px solid #f7f7f7ce !important;
+}
+
+.GenderSelect {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.modalRow {
+  cursor: pointer;
+}
+.desktop-card{
+  visibility:visible;
+}
+.card-header2{
+  visibility:hidden;
+}
+.mobile-card{
+  visibility:hidden;
+}
+
+/* Tables-Mobile-cards-view */
+ /* table.admin {
+	width:100%;
+	margin:auto;
+}
+table.admin td, .admin th {
+	padding:5px;
+}  */
+.table{
+	width: 100%;
+	/* border-collapse: collapse; */
+}
+/* .table tbody{
+  border-bottom:1px solid #ddd;
+} */
+/* .table tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+} */
+.campaignCard .card .socialContainer img{
+  width: 50px !important;
+  height: 50px !important;
+}
+.modal .mainForm label{
+  font-size:10px;
+}
+.modal .mainForm option{
+  font-size:12px;
+}
+.modal .mainForm select :checked{
+  font-size:12px;
+}
+@media screen and (max-width: 760px) {
+  .nav.nav-pills{
+    white-space: nowrap;
+    /* width: 400px; */
+    /* display:block!important; */
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    /* -webkit-overflow-scrolling: touch; */
+  }
+
+  .nav.nav-pills li{
+    display: inline-block;
+  }
+
+  .desktop-card{
+    visibility:hidden;
+    margin:0 !important;
+    padding: 0 !important;
+    display: none !important;
+  }
+  .card-header2{
+    visibility:visible;
+  }
+  .mobile-card{
+    visibility:visible;
+  }
+  .mobile-card .card{
+    background:#283046;
+    border-radius:0;
+    border:2px solid #757575;
+  }
+  .mobile-card .table td{
+    border-top:2px solid #757575;
+    border-bottom:2px solid #757575;
+  }
+  .mobile-card .table td .detail p img{
+    width:25px !important;
+    height: 25px !important;
+  }
+  .mobile-card .owl-nav{
+    visibility:hidden
+  }
+  .nav.nav-pills{
+    /* display: inline-block !important; */
+    /* overflow-x: scroll !important; */
+    font-size:12px !important;
+}
+.nav.nav-pills ul{
+  font-size:12px !important;
+} 
+.nav.nav-pills h4{
+  font-size:12px !important;
+} 
+.SocialsSlelect label{
+  font-size: 12px !important;
+}
+#dropdownMenuLink{
+  font-size: 11px !important;
+}
+/* card */
+.card .title{
+  font-size: 20px !important;
+}
+.campaignCard .card .socialContainer img{
+  width: 25px !important;
+  height: 25px !important;
+}
+.title{
+  font-size: 10px !important;
+}
+.Actionbtns {
+  display:inline-block;
+  overflow-x:scroll;
+}
+.Actionbtns a{
+  font-size: 8px !important;
+}
+.cpc .actions button{
+font-size:10px;
+margin-top:2px;
+padding: 0;
+}
+.restricttions h3{
+  font-size:12px;
+}
+/* .table{
+} */
+  .table thead{
+		display: none;
+	}
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+	}
+	.table tr{
+    /* margin-top:15px; */
+		/* margin-bottom:15px; */
+		display:inline-block;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+/*# sourceMappingURL=Dasboard.css.map */

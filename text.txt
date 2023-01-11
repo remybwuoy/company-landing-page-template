@@ -1,0 +1,1001 @@
+  <!--Tab Section-->
+
+
+      <div class="tab-content " id="pills-tabContent">
+
+        <div class="tab-pane fade show active" id="pills-Path" role="tabpanel" aria-labelledby="pills-Path-tab">
+
+<!-- home -->
+
+     
+            
+            <div class="container">
+                
+                <div class="row align-items-center my-5">
+
+                    <div class="col-lg-6 Driver px-4">
+
+                        <img src="/assets/images/driver1.png" alt="" class="img-fluid my-4">
+
+                        <h4 class="my-3">Become a <a href="#" class="display z">Rankit</a> Driver</h4>
+
+                        <a href="#" class="btn btn-white my-5">Sign up Driver</a>
+
+                    </div>
+
+                    <div class="col-lg-6 Advertiser px-4 text-end">
+
+                        <img src="/assets/images/guest1.png" alt="" class="img-fluid my-4">
+
+                        <h4 class="my-3">Become a <a href="#" class="display z">Rankit</a> Driver</h4>
+
+                        <a href="#" class="btn btn-white my-5">Sign up Guest</a>
+
+                    </div>
+
+                </div>
+
+            </div> 
+
+        </div>
+
+        <!-- home End -->
+
+        
+      </div>
+
+
+      <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-Path" type="button" role="tab" aria-controls="pills-Path" aria-selected="true"> 
+            <img src="/assets/images/Campaign.png" alt="" class="img-fluid mx-2"> Select path
+        </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-user-tab" data-bs-toggle="pill" data-bs-target="#pills-user" type="button" role="tab" aria-controls="pills-user" aria-selected="false"> <img src="/assets/images/user.png" alt="" class="img-fluid mx-2"> user</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"> <img src="/assets/images/PersonPlus.png" alt="" class="img-fluid mx-2"> Contact</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"> <img src="/assets/images/Socialize.png" alt="" class="img-fluid mx-2"> Contact</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"> <img src="/assets/images/review.png" alt="" class="img-fluid mx-2"> Contact</button>
+          </li>
+      </ul>
+
+
+
+
+
+
+
+
+
+
+  <div class="content-body"><!-- Basic Tables start -->
+<div class="row" id="basic-table">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">Table Basic</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+          Using the most basic table Leanne Grahamup, here’s how <code>.table</code>-based tables look in Bootstrap. You
+          can use any example of below table for your table and it can be use with any type of bootstrap tables.
+        </p>
+      </div>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Client</th>
+              <th>Users</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  src="../../../app-assets/images/icons/angular.svg"
+                  class="me-75"
+                  height="20"
+                  width="20"
+                  alt="Angular"
+                />
+                <span class="fw-bold">Angular Project</span>
+              </td>
+              <td>Peter Charls</td>
+              <td>
+                <div class="avatar-group">
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Lilian Nenez"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-5.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-6.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-7.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge rounded-pill badge-light-primary me-1">Active</span></td>
+              <td>
+                <div class="dropdown">
+                  <button type="button" class="btn btn-sm dropdown-toggle hide-arrow py-0" data-bs-toggle="dropdown">
+                    <i data-feather="more-vertical"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="edit-2" class="me-50"></i>
+                      <span>Edit</span>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="trash" class="me-50"></i>
+                      <span>Delete</span>
+                    </a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="../../../app-assets/images/icons/react.svg"
+                  class="me-75"
+                  height="20"
+                  width="20"
+                  alt="React"
+                />
+                <span class="fw-bold">React Project</span>
+              </td>
+              <td>Ronald Frest</td>
+              <td>
+                <div class="avatar-group">
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Lilian Nenez"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-5.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-6.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-7.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge rounded-pill badge-light-success me-1">Completed</span></td>
+              <td>
+                <div class="dropdown">
+                  <button type="button" class="btn btn-sm dropdown-toggle hide-arrow py-0" data-bs-toggle="dropdown">
+                    <i data-feather="more-vertical"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="edit-2" class="me-50"></i>
+                      <span>Edit</span>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="trash" class="me-50"></i>
+                      <span>Delete</span>
+                    </a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="../../../app-assets/images/icons/vuejs.svg"
+                  class="me-75"
+                  height="20"
+                  width="20"
+                  alt="Vuejs"
+                />
+                <span class="fw-bold">Vuejs Project</span>
+              </td>
+              <td>Jack Obes</td>
+              <td>
+                <div class="avatar-group">
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Lilian Nenez"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-5.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-6.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-7.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge rounded-pill badge-light-info me-1">Scheduled</span></td>
+              <td>
+                <div class="dropdown">
+                  <button type="button" class="btn btn-sm dropdown-toggle hide-arrow py-0" data-bs-toggle="dropdown">
+                    <i data-feather="more-vertical"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="edit-2" class="me-50"></i>
+                      <span>Edit</span>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="trash" class="me-50"></i>
+                      <span>Delete</span>
+                    </a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="../../../app-assets/images/icons/bootstrap.svg"
+                  class="me-75"
+                  height="20"
+                  width="20"
+                  alt="Bootstrap"
+                />
+                <span class="fw-bold">Bootstrap Project</span>
+              </td>
+              <td>Jerry Milton</td>
+              <td>
+                <div class="avatar-group">
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Lilian Nenez"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-5.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-6.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                  <div
+                    data-bs-toggle="tooltip"
+                    data-popup="tooltip-custom"
+                    data-bs-placement="top"
+                    class="avatar pull-up my-0"
+                    title="Alberto Glotzbach"
+                  >
+                    <img
+                      src="../../../app-assets/images/portrait/small/avatar-s-7.jpg"
+                      alt="Avatar"
+                      height="26"
+                      width="26"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge rounded-pill badge-light-warning me-1">Pending</span></td>
+              <td>
+                <div class="dropdown">
+                  <button type="button" class="btn btn-sm dropdown-toggle hide-arrow py-0" data-bs-toggle="dropdown">
+                    <i data-feather="more-vertical"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="edit-2" class="me-50"></i>
+                      <span>Edit</span>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <i data-feather="trash" class="me-50"></i>
+                      <span>Delete</span>
+                    </a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Basic Tables end -->
+
+
+Dropdown Actions
+  <td>
+                                                <div class="dropdown">
+                                                  <button type="button" class="btn btn-sm dropdown-toggle hide-arrow py-0" data-bs-toggle="dropdown">
+                                                    <i data-feather="more-vertical"></i>
+                                                  </button>
+                                                  <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">
+                                                      <i data-feather="edit-2" class="me-50"></i>
+                                                      <span>Edit</span>
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                      <i data-feather="trash" class="me-50"></i>
+                                                      <span>Delete</span>
+                                                    </a>
+                                                  </div>
+                                                </div>
+                                              </td>
+
+
+ <span class="badge rounded-pill badge-light-primary me-1">Active</span>
+
+
+ Chat
+
+ 
+<!-- Chat Sidebar area -->
+<div class="sidebar-content">
+  <span class="sidebar-close-icon">
+    <i data-feather="x"></i>
+  </span>
+  <!-- Sidebar header start -->
+  <div class="chat-fixed-search">
+    <div class="d-flex align-items-center w-100">
+      <div class="sidebar-profile-toggle">
+        <div class="avatar avatar-border">
+          <img
+            src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
+            alt="user_avatar"
+            height="42"
+            width="42"
+          />
+          <span class="avatar-status-online"></span>
+        </div>
+      </div>
+      <div class="input-group input-group-merge ms-1 w-100">
+        <span class="input-group-text round"><i data-feather="search" class="text-muted"></i></span>
+        <input
+          type="text"
+          class="form-control round"
+          id="chat-search"
+          placeholder="Search or start a new chat"
+          aria-label="Search..."
+          aria-describedby="chat-search"
+        />
+      </div>
+    </div>
+  </div>
+  <!-- Sidebar header end -->
+
+  <!-- Sidebar Users start -->
+  <div id="users-list" class="chat-user-list-wrapper list-group">
+    <h4 class="chat-list-title">Chats</h4>
+    <ul class="chat-users-list chat-list media-list">
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-3.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+          <span class="avatar-status-offline"></span>
+        </span>
+        <div class="chat-info flex-grow-1">
+          <h5 class="mb-0">Elizabeth Elliott</h5>
+          <p class="card-text text-truncate">
+            Cake pie jelly jelly beans. Marzipan lemon drops halvah cake. Pudding cookie lemon drops icing
+          </p>
+        </div>
+        <div class="chat-meta text-nowrap">
+          <small class="float-end mb-25 chat-time">4:14 PM</small>
+          <span class="badge bg-danger rounded-pill float-end">3</span>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-7.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+          <span class="avatar-status-busy"></span>
+        </span>
+        <div class="chat-info flex-grow-1">
+          <h5 class="mb-0">Kristopher Candy</h5>
+          <p class="card-text text-truncate">
+            Cake pie jelly jelly beans. Marzipan lemon drops halvah cake. Pudding cookie lemon drops icing
+          </p>
+        </div>
+        <div class="chat-meta text-nowrap">
+          <small class="float-end mb-25 chat-time">9:09 AM</small>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-8.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+          <span class="avatar-status-away"></span>
+        </span>
+        <div class="chat-info flex-grow-1">
+          <h5 class="mb-0">Sarah Woods</h5>
+          <p class="card-text text-truncate">
+            Cake pie jelly jelly beans. Marzipan lemon drops halvah cake. Pudding cookie lemon drops icing.
+          </p>
+        </div>
+        <div class="chat-meta text-nowrap">
+          <small class="float-end mb-25 chat-time">5:48 PM</small>
+        </div>
+      </li>
+      <li class="no-results">
+        <h6 class="mb-0">No Chats Found</h6>
+      </li>
+    </ul>
+    <h4 class="chat-list-title">Contacts</h4>
+    <ul class="chat-users-list contact-list media-list">
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-7.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Jenny Perich</h5>
+          <p class="card-text text-truncate">
+            Tart dragée carrot cake chocolate bar. Chocolate cake jelly beans caramels tootsie roll candy canes.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-5.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Sarah Montgomery</h5>
+          <p class="card-text text-truncate">
+            Tootsie roll sesame snaps biscuit icing jelly-o biscuit chupa chups powder.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-9.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Heather Howell</h5>
+          <p class="card-text text-truncate">
+            Tart cookie dragée sesame snaps halvah. Fruitcake sugar plum gummies cheesecake toffee.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-7.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Kelly Reyes</h5>
+          <p class="card-text text-truncate">
+            Wafer toffee tart jelly cake croissant chocolate bar cupcake donut. Fruitcake gingerbread tiramisu sweet
+            jelly-o.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-15.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Kristopher Candy</h5>
+          <p class="card-text text-truncate">
+            Marzipan bonbon chocolate bar biscuit lemon drops muffin jelly-o sweet jujubes.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-14.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Vincent Nelson</h5>
+          <p class="card-text text-truncate">
+            Toffee gummi bears sugar plum gummi bears chocolate bar donut. Pudding cookie lemon drops icing
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-17.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Jimmy Parker</h5>
+          <p class="card-text text-truncate">
+            Powder halvah jelly beans topping caramels muffin dragée lollipop oat cake.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-3.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Elizabeth Elliott</h5>
+          <p class="card-text text-truncate">
+            Candy canes ice cream jelly beans carrot cake chocolate bar pastry candy jelly-o.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span class="avatar"
+          ><img
+            src="../../../app-assets/images/portrait/small/avatar-s-13.jpg"
+            height="42"
+            width="42"
+            alt="Generic placeholder image"
+          />
+        </span>
+        <div class="chat-info">
+          <h5 class="mb-0">Nelson D'souza</h5>
+          <p class="card-text text-truncate">
+            Macaroon candy canes apple pie soufflé lemon drops chocolate cake chocolate sweet roll.
+          </p>
+        </div>
+      </li>
+      <li class="no-results">
+        <h6 class="mb-0">No Contacts Found</h6>
+      </li>
+    </ul>
+  </div>
+  <!-- Sidebar Users end -->
+</div>
+<!--/ Chat Sidebar area -->
+
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="content-wrapper container-xxl p-0">
+            <div class="content-header row">
+            </div>
+            <div class="content-body"><div class="body-content-overlay"></div>
+<!-- Main chat area -->
+<section class="chat-app-window">
+  <!-- To load Conversation -->
+  <div class="start-chat-area">
+    <div class="mb-1 start-chat-icon">
+      <i data-feather="message-square"></i>
+    </div>
+    <h4 class="sidebar-toggle start-chat-text">Start Conversation</h4>
+  </div>
+  <!--/ To load Conversation -->
+
+  <!-- Active Chat -->
+  <div class="active-chat d-none">
+    <!-- Chat Header -->
+    <div class="chat-navbar">
+      <header class="chat-header">
+        <div class="d-flex align-items-center">
+          <div class="sidebar-toggle d-block d-lg-none me-1">
+            <i data-feather="menu" class="font-medium-5"></i>
+          </div>
+          <div class="avatar avatar-border user-profile-toggle m-0 me-1">
+            <img src="../../../app-assets/images/portrait/small/avatar-s-7.jpg" alt="avatar" height="36" width="36" />
+            <span class="avatar-status-busy"></span>
+          </div>
+          <h6 class="mb-0">Kristopher Candy</h6>
+        </div>
+        <div class="d-flex align-items-center">
+          <i data-feather="phone-call" class="cursor-pointer d-sm-block d-none font-medium-2 me-1"></i>
+          <i data-feather="video" class="cursor-pointer d-sm-block d-none font-medium-2 me-1"></i>
+          <i data-feather="search" class="cursor-pointer d-sm-block d-none font-medium-2"></i>
+          <div class="dropdown">
+            <button
+              class="btn-icon btn btn-transparent hide-arrow btn-sm dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i data-feather="more-vertical" id="chat-header-actions" class="font-medium-2"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="chat-header-actions">
+              <a class="dropdown-item" href="#">View Contact</a>
+              <a class="dropdown-item" href="#">Mute Notifications</a>
+              <a class="dropdown-item" href="#">Block Contact</a>
+              <a class="dropdown-item" href="#">Clear Chat</a>
+              <a class="dropdown-item" href="#">Report</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!--/ Chat Header -->
+
+    <!-- User Chat messages -->
+    <div class="user-chats">
+      <div class="chats">
+        <div class="chat">
+          <div class="chat-avatar">
+            <span class="avatar box-shadow-1 cursor-pointer">
+              <img
+                src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
+                alt="avatar"
+                height="36"
+                width="36"
+              />
+            </span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>How can we help? We're here for you! 😄</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat chat-left">
+          <div class="chat-avatar">
+            <span class="avatar box-shadow-1 cursor-pointer">
+              <img src="../../../app-assets/images/portrait/small/avatar-s-7.jpg" alt="avatar" height="36" width="36" />
+            </span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>Hey John, I am looking for the best admin template.</p>
+              <p>Could you please help me to find it out? 🤔</p>
+            </div>
+            <div class="chat-content">
+              <p>It should be Bootstrap 4 compatible.</p>
+            </div>
+          </div>
+        </div>
+        <div class="divider">
+          <div class="divider-text">Yesterday</div>
+        </div>
+        <div class="chat">
+          <div class="chat-avatar">
+            <span class="avatar box-shadow-1 cursor-pointer">
+              <img
+                src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
+                alt="avatar"
+                height="36"
+                width="36"
+              />
+            </span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>Absolutely!</p>
+            </div>
+            <div class="chat-content">
+              <p>Vuexy admin is the responsive bootstrap 4 admin template.</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat chat-left">
+          <div class="chat-avatar">
+            <span class="avatar box-shadow-1 cursor-pointer">
+              <img src="../../../app-assets/images/portrait/small/avatar-s-7.jpg" alt="avatar" height="36" width="36" />
+            </span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>Looks clean and fresh UI. 😃</p>
+            </div>
+            <div class="chat-content">
+              <p>It's perfect for my next project.</p>
+            </div>
+            <div class="chat-content">
+              <p>How can I purchase it?</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-avatar">
+            <span class="avatar box-shadow-1 cursor-pointer">
+              <img
+                src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
+                alt="avatar"
+                height="36"
+                width="36"
+              />
+            </span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>Thanks, from ThemeForest.</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat chat-left">
+          <div class="chat-avatar">
+            <span class="avatar box-shadow-1 cursor-pointer">
+              <img src="../../../app-assets/images/portrait/small/avatar-s-7.jpg" alt="avatar" height="36" width="36" />
+            </span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>I will purchase it for sure. 👍</p>
+            </div>
+            <div class="chat-content">
+              <p>Thanks.</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-avatar">
+            <span class="avatar box-shadow-1 cursor-pointer">
+              <img
+                src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
+                alt="avatar"
+                height="36"
+                width="36"
+              />
+            </span>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>Great, Feel free to get in touch on</p>
+            </div>
+            <div class="chat-content">
+              <p>https://pixinvent.ticksy.com/</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- User Chat messages -->
+
+    <!-- Submit Chat form -->
+    <form class="chat-app-form" action="javascript:void(0);" onsubmit="enterChat();">
+      <div class="input-group input-group-merge me-1 form-send-message">
+        <span class="speech-to-text input-group-text"><i data-feather="mic" class="cursor-pointer"></i></span>
+        <input type="text" class="form-control message" placeholder="Type your message or use speech to text" />
+        <span class="input-group-text">
+          <label for="attach-doc" class="attachment-icon form-label mb-0">
+            <i data-feather="image" class="cursor-pointer text-secondary"></i>
+            <input type="file" id="attach-doc" hidden /> </label
+        ></span>
+      </div>
+      <button type="button" class="btn btn-primary send" onclick="enterChat();">
+        <i data-feather="send" class="d-lg-none"></i>
+        <span class="d-none d-lg-block">Send</span>
+      </button>
+    </form>
+    <!--/ Submit Chat form -->
+  </div>
+  <!--/ Active Chat -->
+</section>
+<!--/ Main chat area -->
+
+<!-- User Chat profile right area -->
+<div class="user-profile-sidebar">
+  <header class="user-profile-header">
+    <span class="close-icon">
+      <i data-feather="x"></i>
+    </span>
+    <!-- User Profile image with name -->
+    <div class="header-profile-sidebar">
+      <div class="avatar box-shadow-1 avatar-border avatar-xl">
+        <img src="../../../app-assets/images/portrait/small/avatar-s-7.jpg" alt="user_avatar" height="70" width="70" />
+        <span class="avatar-status-busy avatar-status-lg"></span>
+      </div>
+      <h4 class="chat-user-name">Kristopher Candy</h4>
+      <span class="user-post">UI/UX Designer 👩🏻‍💻</span>
+    </div>
+    <!--/ User Profile image with name -->
+  </header>
+  <div class="user-profile-sidebar-area">
+    <!-- About User -->
+    <h6 class="section-label mb-1">About</h6>
+    <p>Toffee caramels jelly-o tart gummi bears cake I love ice cream lollipop.</p>
+    <!-- About User -->
+    <!-- User's personal information -->
+    <div class="personal-info">
+      <h6 class="section-label mb-1 mt-3">Personal Information</h6>
+      <ul class="list-unstyled">
+        <li class="mb-1">
+          <i data-feather="mail" class="font-medium-2 me-50"></i>
+          <span class="align-middle">kristycandy@email.com</span>
+        </li>
+        <li class="mb-1">
+          <i data-feather="phone-call" class="font-medium-2 me-50"></i>
+          <span class="align-middle">+1(123) 456 - 7890</span>
+        </li>
+        <li>
+          <i data-feather="clock" class="font-medium-2 me-50"></i>
+          <span class="align-middle">Mon - Fri 10AM - 8PM</span>
+        </li>
+      </ul>
+    </div>
+    <!--/ User's personal information -->
+
+    <!-- User's Links -->
+    <div class="more-options">
+      <h6 class="section-label mb-1 mt-3">Options</h6>
+      <ul class="list-unstyled">
+        <li class="cursor-pointer mb-1">
+          <i data-feather="tag" class="font-medium-2 me-50"></i>
+          <span class="align-middle">Add Tag</span>
+        </li>
+        <li class="cursor-pointer mb-1">
+          <i data-feather="star" class="font-medium-2 me-50"></i>
+          <span class="align-middle">Important Contact</span>
+        </li>
+        <li class="cursor-pointer mb-1">
+          <i data-feather="image" class="font-medium-2 me-50"></i>
+          <span class="align-middle">Shared Media</span>
+        </li>
+        <li class="cursor-pointer mb-1">
+          <i data-feather="trash" class="font-medium-2 me-50"></i>
+          <span class="align-middle">Delete Contact</span>
+        </li>
+        <li class="cursor-pointer">
+          <i data-feather="slash" class="font-medium-2 me-50"></i>
+          <span class="align-middle">Block Contact</span>
+        </li>
+      </ul>
+    </div>
+    <!--/ User's Links -->
+  </div>
+</div>
+<!--/ User Chat profile right area -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END: Content-->

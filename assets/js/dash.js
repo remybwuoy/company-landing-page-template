@@ -1,0 +1,54 @@
+$('.owl-mobile').owlCarousel({
+    loop:true,
+    margin:0,
+    dots:false,
+    nav:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            dots:false,
+            nav:false,
+            margin:10,
+        },
+        600:{
+            items:2,
+            dots:false,
+            nav:false,
+            margin:10,
+        },
+        1000:{
+            items:3,
+            dots:false,
+            nav:false,
+        }
+    }
+})
+
+// Owl-Carousel
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    dots:false,
+    nav:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1.1,
+            dots:false,
+            nav:false,
+            margin:10,
+        },
+        600:{
+            items:2,
+            dots:false,
+            nav:false,
+            margin:10,
+        },
+        1000:{
+            items:3.3,
+            dots:false,
+            nav:false,
+        }
+    }
+})
